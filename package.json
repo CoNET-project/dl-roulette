@@ -1,0 +1,28 @@
+{
+	"name": "@conet.project/dl-roulette",
+	"version": "0.0.1",
+	"author": {
+		"name": "CoNET Project",
+		"email": "info@CoNETTech.ca"
+	},
+	"description": "The CoNET project provides Innate in digital privacy from the network layer to the application layer.",
+	"license": "MIT",
+	"files": [
+		"./dist/**/*.*"
+	],
+	"bugs": {
+		"url": "https://github.com/CoNET-project/mvp-SI/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CoNET-project/mvp-SI.git"
+	},
+	"homepage": "https://CoNETTech.ca",
+	"main": "./src/electron/electron.js",
+	"scripts": {
+		"build": "tsc --project tsconfig.json"
+	},
+	"bin": {
+		"conet-mvp-dl": "dist/cli.js"
+	}
+}
